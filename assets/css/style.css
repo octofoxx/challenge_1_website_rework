@@ -1,3 +1,4 @@
+/*This element is a universal selector and applies spacing  to the entire webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,23 +8,23 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*This element is for the header's styling*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This element affects the company's name in the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*This class selector affects the "seo" part of the company's name in header*/
 .seo {
     color: #d9dcd6;
 }
-
+/*This element selector affects the links in the top right of the header*/
 nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -31,20 +32,16 @@ nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*This element is for the listed links in the top-right to display inline*/
 li {  display: inline-block;
     margin-left: 25px;
 }
-
+/*This element affects the color of links in the top right of header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
+/*This class selector affects the centeral background image of the website*/
 .meeting {
     height: 800px;
     width: 100%;
@@ -53,13 +50,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*This element affects the main section's layout*/
 content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*This element affects the main section's spacing and font styling*/
 main {
     margin-bottom: 20px;
     padding: 50px;
@@ -68,25 +65,30 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This element affects the title of each main section*/
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*This element affects the size of each image in the main section*/
 main img {
     max-height: 200px;
 }
-
+/*This element affects the font size of the sentences in the main and aside sections*/
+p {
+    font-size: 16px;
+}
+/*This class selector will move an image left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*This class selector will move an image right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*This element affects the styling,positioning and fonts of the content seen on the right side of the website*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -97,23 +99,23 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*This element affects the spacing and color of content in the aside section*/
 section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*This element affects the spacing and text of the content in the aside section*/
 section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*This element affects the image placement in the aside section*/
 section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*this element affects the footer's placement and font styling*/
 footer {
     padding: 30px;
     clear: both;
