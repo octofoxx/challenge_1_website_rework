@@ -18,10 +18,7 @@ N/A
 
 ## Usage
    
- ![Screenshot of webpage](./assets/images/website-screenshot.png)
-
- [Link for deployed page](https://octofoxx.github.io/challenge_1_website_rework/)
-
+    ![](./assets/images/website-screenshot.png)
 
 ## Credits
 
